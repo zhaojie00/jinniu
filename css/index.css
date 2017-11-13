@@ -1,0 +1,255 @@
+/*S banner轮播图*/
+#banner{
+	position: relative;
+	width: 1340px;
+	height: 404px;
+	margin: 0 auto;
+}
+#banner .ban-t{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 1s ease;/*css3动画延迟*/
+}
+.tab{
+	position: absolute;
+	bottom: 65px;
+	left: 45%;
+}
+.tab ul li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	margin:0 4px;
+	background:#e1ecdf;
+}
+.tab ul li.on{
+	background-color: #f60;
+}
+/*E banner大图*/
+/*S main 内容区域*/
+.main{
+	position: relative;
+	width: 980px;
+	height: 274px;
+	margin:0 auto;
+}
+.center{
+	position: absolute;
+	bottom: 48px;
+	overflow: hidden;
+}
+.center .about{
+	float: left;
+	width: 298px;
+	height: 274px;
+	padding-left:16px;
+	border:1px solid #d6d6d6;
+	border-radius: 10px;	
+	background: #fff;
+}
+/*********S 轮播区域***********/
+.center .about dl dt{
+	position: relative;
+	width: 281px;
+	height:96px;
+	overflow: hidden;
+}
+#lunbo{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1490px;
+	height: 96px;
+	transition:all 0.4s ease-out;
+}
+#lunbo li{
+	float: left;
+	width: 281px;
+	height:96px;
+}
+/*********E 轮播区域***********/
+.center .about dl h6{
+	width: 281px;
+	font-size: 14px;
+	line-height: 2;
+	margin: 10px 0;
+
+}
+.center .about dl dd{
+	width: 281px;
+	line-height: 1.5;
+	margin: 10px 0;
+}
+.center .about p{
+	width: 96px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	padding-left:10px;
+	background:url(../img/index/icon.png) no-repeat -545px -45px;
+}
+.cen{
+	position: relative;
+	margin: 0 16px;
+}
+.cen .more ul.teb{
+	position: absolute;
+	bottom: 40px;
+	right: 16px;
+}
+.cen .more ul li{
+	float: left;
+	width: 6px;
+	height: 6px;
+	margin: 0 3px;
+	border-radius: 10px;
+	background: #dadada;
+}
+.cen .more ul li.ok{
+	background: #e4393c;
+}
+.center .ji{
+
+	float: left;
+	width: 313px;
+	height: 274px;
+	border:1px solid #d6d6d6;
+	border-radius: 5px;	
+	background: #fff;
+}
+.center .ji ul{
+	width: 314px;
+	height: 128px;
+	border-radius: 10px;
+	background: #e04349;
+}
+.center .ji ul li{
+	position: relative;
+	float: left;
+	width: 104.5px;	
+	height: 64px;
+	overflow: hidden;
+}
+.center .ji ul li p{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 104.5px;
+	height: 64px;
+}
+.center .ji ul li:hover p{
+	opacity: 0.5;
+	background:#f60;
+}
+.center .ji ul li a{
+	display: block;
+	width: 104.5px;
+	height: 64px;
+	transition: all 1.5s ease;
+}
+/*.center .ji ul li:nth-child(1) a{
+	background:url(../img/index/box.png) no-repeat -0px -0px;
+}
+.center .ji ul li:nth-child(2) a{
+	background:url(../img/index/box.png) no-repeat -104.5px -0px;
+}
+.center .ji ul li:nth-child(3) a{
+	background:url(../img/index/box.png) no-repeat -209px -0px;
+}
+.center .ji ul li:nth-child(4) a{
+	background:url(../img/index/box.png) no-repeat -0px -64px;
+}
+.center .ji ul li:nth-child(5) a{
+	background:url(../img/index/box.png) no-repeat -104.5px -64px;
+}
+.center .ji ul li:nth-child(6) a{
+	background:url(../img/index/box.png) no-repeat -209px -64px;
+}*/
+
+/*.center .ji ul li:nth-child(1):hover a{
+	background:url(../img/index/box.png) no-repeat -5px 0px;
+}
+.center .ji ul li:nth-child(2):hover a{
+	background:url(../img/index/box.png) no-repeat -109.5px 0px;
+}
+.center .ji ul li:nth-child(3):hover a{
+	background:url(../img/index/box.png) no-repeat -204px 0px;
+}
+.center .ji ul li:nth-child(4):hover a{
+	background:url(../img/index/box.png) no-repeat -5px -64px;
+}
+.center .ji ul li:nth-child(5):hover a{
+	background:url(../img/index/box.png) no-repeat -109.5px -64px;
+}
+.center .ji ul li:nth-child(6):hover a{
+	background:url(../img/index/box.png) no-repeat -204px -64px;
+}*/
+.center .ji .mo{
+	width: 314px;
+	height: 138px;
+	margin-top:10px;
+	border-top:1px solid #e7e7e7;
+}
+.center .ji .mo .div2{
+		border:1px solid #e7e7e7;
+}
+.center .ji .mo div{
+	width: 314px;
+	height: 46px;
+	line-height: 46px;
+}
+.center .ji .mo div p{
+	width: 314px;
+}
+.center .ji .mo div b{
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+	margin: 0 20px 0 20px;
+	background:url(../img/index/icon.png) no-repeat -972px -31px;
+}
+.center .ji .mo .div2 b{
+	background:url(../img/index/icon.png) no-repeat -972px -118px;
+}
+.center .ji .mo .div2 p{
+	padding:-3px 0;
+}
+.center .ji .mo .div3 b{
+	background:url(../img/index/icon.png) no-repeat -972px -77px;
+}
+/*E main 内容区域*/
+/*友情链接*/
+/*S fotter_box*/
+.footer_box{
+	width: 980px;
+	height: 80px;
+	margin:0 auto;
+}
+.footer_box h2{
+	font-size: 16px;
+}
+.footer_box ul li{
+	float: left;
+}
+.footer_box ul li a{
+	display: block;
+	width: 140px;
+	height: 80px;
+}
+.footer_box ul li:nth-child(5){
+	width: 265px;
+	height: 80px;
+}
+.footer_box ul{
+	margin:10px 0;
+	width: 980px;
+	height: 50px;
+	padding: 20px 0;
+	border-top:2px solid #e6e6e6;
+	border-bottom:2px solid #e6e6e6;
+}
+/*E lianjie*/
+/*dibu*/

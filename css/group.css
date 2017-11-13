@@ -1,0 +1,122 @@
+#top_main ul li .color{
+	color: #fff;
+	background-color: #df3035;
+}
+/*S banner-main*/
+#banner-main{
+	position: relative;
+	width: 1340px;
+	height: 196px;
+	margin: 0 auto;
+}
+/*E banner-main*/
+/*S sec-main*/
+#sec-main{
+	width: 980px;
+	height: 1440px;
+	margin: 0 auto;
+}
+/*left*/
+#sec-main .left{
+	float: left;
+	width: 222px;
+	height: 1440px;
+	border:1px solid #e7e7e7;
+}
+#sec-main .left ul li{
+	width: 200px;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 22px;
+	border-bottom:1px solid #e7e7e7;
+}
+#sec-main .left ul li span{
+	position: absolute;
+	display: inline-block;
+	right: -3px;
+	top: 11px;	
+	width: 8px;
+	height: 12px;
+	background:url(../img/news/icon.png) no-repeat -994px 0;
+}
+#sec-main .left ul li:nth-child(8){
+	width: 222px;
+	height: 106px;
+	padding: 0;
+	background:url(../img/news/icon.png) no-repeat -319px -7px;
+}
+#sec-main .left ul li{
+	position: relative;
+}
+#sec-main .left ul li b{
+	position: absolute;
+	display: inline-block;
+	left: 3px;
+	top: 5px;
+	
+	width: 22px;
+	height: 18px;
+}
+#sec-main .left ul li:nth-child(1){
+	background: #dbdbdb;
+}
+#sec-main .left ul li:nth-child(8){
+	margin-top: 10px;
+}
+#sec-main .left ul li:nth-child(9) b{
+	background:url(../img/index/icon.png) no-repeat -972px -31px;
+}
+#sec-main .left ul li:nth-child(10) b{
+	background:url(../img/index/icon.png) no-repeat -972px -118px;
+}
+#sec-main .left ul li:nth-child(11) b{
+	background:url(../img/index/icon.png) no-repeat -972px -77px;
+}
+#sec-main .left ul li:nth-child(11){
+	border-bottom: 0;
+}
+#sec-main .left ul .li1,#sec-main .left ul .li2,#sec-main .left ul .li3{
+	margin: 0;
+	width: 188px;
+	padding-left: 34px;
+}
+/*right*/
+/*S 标题栏*/
+#sec-main .right{
+	float: right;
+	width: 735px;
+	height: 1440px;	
+	border:1px solid #e1e1e1;
+	border-left:0;
+	padding-left:10px;
+	padding-right: 10px;
+}
+#sec-main .right .fan{
+	width: 735px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #e1e1e1;
+}
+/*E 标题栏*/
+#sec-main .right .flash{
+	width: 735px;
+	margin: 15px auto;
+}
+#sec-main .right .flash img{
+	margin: 0 47.5px;
+}
+#sec-main .right h4{
+	margin:24px 0;
+}
+#sec-main .right p{
+	line-height: 1.5;
+	margin: 10px 0;
+}
+#sec-main .right .p1{
+	text-indent: 24px;
+}
+#sec-main .right .p1 b{
+	color: red;
+	font-weight: normal;
+}
+/*E sec-main*/

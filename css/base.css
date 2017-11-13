@@ -1,0 +1,137 @@
+body{
+	margin:0;
+	padding:0;
+	font:12px "microsoft yahei",Arial;
+	color:#666;
+}
+ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	list-style:none;
+	outline:none;
+}
+a{
+	text-decoration:none;
+	color:#666;
+}
+a:hover{
+	text-decoration:underline;
+	color:#e4393c;
+}
+input,button{
+	border:0;
+}
+img{
+	vertical-align:bottom;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+/*S top_box*/
+#top{
+	width: 1320px;
+	height: 51px;
+	margin:0 auto;
+	background: #f7f7f7;
+	padding: 10px;
+}
+.top_box{	
+	width:980px;
+	height: 36px;
+	margin:0 auto;
+	padding: 15px 0 17.5px 0;
+}
+.top_box .logo{
+	float: left;
+	width: 435px;
+	height: 36px;
+	background:url(../img/index/logo.gif) no-repeat;
+}
+.top_box .inx{
+	float: right;
+	width: 130px;
+	height: 36px;
+	line-height: 36px;
+}
+.top_box .inx .set b{	
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	padding-right: 5px;
+	background:url(../img/index/icon.png) no-repeat -656px -46px;
+}
+.top_box .inx .save b{
+	display: inline-block;
+	width: 8px;
+	height: 10px;
+	padding-right: 5px;
+	background:url(../img/index/icon.png) no-repeat -655px -71px;
+}
+/*E top_box*/
+#top_main{
+	position: relative;
+	top:22px;
+	width: 980px;
+	height: 46px;
+	z-index:9;
+	margin:0 auto;
+	border-radius: 50px;
+	background:red url(../img/index/navbg.png) no-repeat;
+}
+#top_main ul li{
+	float: left;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 20px;
+	margin-right: 1px;
+}
+#top_main ul li.color{
+	color: #fff;
+	background-color: #df3035;
+}
+#top_main ul li:hover{
+	background:#df3035;
+}
+#top_main ul li:hover a{
+	color: #fff;
+}
+#top_main ul li:nth-child(1){
+	width: 109px;
+	height: 46px;
+	border-radius: 50px 0 0 50px;
+	text-align: center;
+}
+#top_main .search{
+	position: relative;
+	width: 235px;
+	height: 31px;
+	margin: 8px;
+}
+#top_main .search .inp{
+	float: left;
+	width: 195px;
+	height: 24px;
+	border:1px solid #ddd;
+	text-indent:12px;
+	border-radius:50px 0 0 50px;
+}
+#top_main .search .sear{
+	display: inline-block;
+	width: 33px;
+	height: 30px;
+	background:url(../img/index/icon.png) no-repeat -745px -8px;
+}
+/*E top_main*/
+
+/*S footer*/
+.footer{
+	width: 980px;
+	height: 52px;
+	margin:0 auto;
+	line-height: 52px;
+}
+
+/***边框阴影***/
+#sec-main .left{
+	box-shadow: -1px 0px 5px -1px inset;
+}
